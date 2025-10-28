@@ -1,8 +1,31 @@
+body {
+  background-color: #b3b3b3e2;
+}
 
-    footer {
-       
-        padding: 2rem 1rem;
-        text-align: center;
-    }
 
-   
+.header {
+  background-color: #5e974c;
+  /* same color as footer for consistency */
+  color: rgb(20, 18, 18);
+  text-align: center;
+  /* vertically center items */
+  padding: 15px 40px;
+}
+
+footer {
+  background-color: #9db595;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.photography {
+  display: flex;
+  padding: 6rem 2rem;
+}
